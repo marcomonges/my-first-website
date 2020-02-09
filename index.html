@@ -50,13 +50,26 @@
 
      </div>   
      <div class="slider-wrap">
-         <ul>
+         <ul class="slider1">
              <li><img src="pictures\Slider\slider1.jpg" alt="slider 1"></li>
              <li><img src="pictures\Slider\slider2.jpg" alt="slider 2"></li>
              <li><img src="pictures\Slider\slider3.jpg" alt="slider 3"></li>
          </ul>
      </div>
     </div>
-
+ <!--SCRIPTS-->
+ <script>
+    $(document).ready(function(){
+      $('.slider1').bxSlider({
+        mode: 'fade',
+      });
+      $('.slider2').bxSlider({
+        mode: 'fade',
+      });
+      $('.slider3').bxSlider({
+        mode: 'fade',
+      });
+    });
+  </script>   
 </body>
 </html>
